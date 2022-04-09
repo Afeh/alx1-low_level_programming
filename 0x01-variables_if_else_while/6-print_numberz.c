@@ -11,7 +11,7 @@ int main(void)
 {
 	int numbrz;
 
-	for (numbrz = 0; numbrz >= 10; numbrz++)
+	for (numbrz = 0; numbrz <= 9; numbrz++)
 		putchar (numbrz);
 	putchar ('\n');
 	return (0);
