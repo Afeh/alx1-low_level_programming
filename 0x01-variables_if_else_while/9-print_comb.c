@@ -16,7 +16,7 @@ int main(void)
 	{
 		putchar (numbrz);
 		numbrz++;
-		if (numbrz != '9')
+		if (numbrz != '10')
 		{
 			putchar(',');
 			putchar(' ');
