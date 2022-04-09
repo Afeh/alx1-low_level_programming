@@ -16,12 +16,12 @@ int main(void)
 	{
 		putchar (numbrz);
 		numbrz++;
-		if (numbrz != '10')
+		if (numbrz != '9')
 		{
 			putchar(',');
 			putchar(' ');
 		}
-		}
+	}
 	putchar ('\n');
 	return (0);
 }
