@@ -14,11 +14,9 @@ int main(void)
 {
 	int numbrs;
 
-	numbrs = 0;
-	while (numbrs < 10)
+	for (numbrs =0; numbrs < 10; numbrs++)
 	{
 		putchar(numbrs);
-		numbrs++;
 	}
 	putchar('\n');
 	return (0);
