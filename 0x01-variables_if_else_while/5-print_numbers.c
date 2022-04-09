@@ -15,7 +15,7 @@ int main(void)
 	int numbrs;
 
 	numbrs = 0;
-	while (numbrs <= 9)
+	while (numbrs < 10)
 	{
 		putchar(numbrs);
 		numbrs++;
