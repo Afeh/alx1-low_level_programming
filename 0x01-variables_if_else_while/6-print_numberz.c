@@ -11,8 +11,8 @@ int main(void)
 {
 	int numbrz;
 
-	numbrz = 0;
-	while (numbrz <= 9)
+	numbrz ='0';
+	while (numbrz <= '9')
 	{
 		putchar (numbrz);
 		numbrz++;
