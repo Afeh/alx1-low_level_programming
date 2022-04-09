@@ -17,6 +17,7 @@ int main(void)
 		putchar (numbrz);
 		numbrz++;
 		putchar(',');
+		putchar(' ');
 	}
 	putchar ('\n');
 	return (0);
