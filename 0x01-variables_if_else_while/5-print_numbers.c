@@ -14,10 +14,10 @@ int main(void)
 {
 	int numbrs;
 
-	for (numbrs =0; numbrs < 10; numbrs++)
+	for (numbrs = 0; numbrs < 10; numbrs++)
 	{
-		putchar(numbrs);
+		printf("%i", numbrs);
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }
