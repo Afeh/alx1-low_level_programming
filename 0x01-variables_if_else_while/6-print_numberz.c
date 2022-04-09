@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	int numbrz;
+	char numbrz;
 
 	for (numbrz = 0; numbrz <= 9; numbrz++)
 		putchar (numbrz);
