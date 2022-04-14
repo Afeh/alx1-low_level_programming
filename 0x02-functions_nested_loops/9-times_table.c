@@ -19,7 +19,7 @@ void times_table(void)
 			{
 				printf(", ");
 			}
-			printf("3%d", number * multiplier);
+			printf("2%d", number * multiplier);
 		}
 		printf("\n");
 	}
