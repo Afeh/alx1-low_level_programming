@@ -3,7 +3,7 @@
 /**
  * is_prime - main - check the code
  * @a: number
- * @b: divisor to check 
+ * @b: divisor to check
  * Return: Always 0
  */
 
@@ -29,5 +29,5 @@ int is_prime(int a, int b)
 
 int is_prime_number(int n)
 {
-	return (is_prime(n , 2));
+	return (is_prime(n, 2));
 }
